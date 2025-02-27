@@ -1,0 +1,935 @@
+{
+  "app": {
+    "aid": "Aid/Complaint",
+    "news": "News & Magazine",
+    "chatSupport": "Chat Support",
+    "editProfile": "Edit Profile",
+    "login": "Login",
+    "logout": "Logout",
+    "currentLanguage": "Current Language: English",
+    "confirmLogout": "Confirm Logout",
+    "logoutConfirmation": "Are you sure you want to logout?",
+    "cancel": "Cancel",
+    "yes": "Logout",
+    "errorLoadingUserDetails": "Failed to load user details"
+  },
+  "tabs": {
+    "aid": "Grievance",
+    "newsMagazine": "News & Magazine",
+    "chatSupport": "Chat Support",
+    "chat": "Chat Support"
+  },
+  "requestAid": {
+    "title": "Aid/Complaint for?",
+    "myself": "Myself",
+    "someoneElse": "Someone else",
+    "trackAidsComplaints": "Track Grievances",
+    "aidSentMessage": "Your aid request has been sent to the team!",
+    "done": "Done"
+  },
+  "chatSupport1": {
+    "title": "Chat with us on Whatsapp",
+    "goToChat": "Go to Chat",
+    "redirectMessage": "You will be redirected to Whatsapp",
+    "done": "Done"
+  },
+  "aidForSomeone": {
+    "title": "Address Grievance for others",
+    "quickGuide": {
+      "title": "Quick Guide",
+      "steps": {
+        "step1": "1. Select who needs support",
+        "step2": "2. Choose grievance type",
+        "step3": "3. Enter subject and describe the situation",
+        "step4": "4. Add voice (Optional)"
+      }
+    },
+    "selectAidFor": "Select who needs aid",
+    "aidType": {
+      "title": "Select Aid Type",
+      "placeholder": "Select aid type",
+      "types": {
+        "financial": "Financial Aid",
+        "medical": "Medical Assistance",
+        "legal": "Legal Support",
+        "education": "Education Support",
+        "housing": "Housing Assistance",
+        "food": "Food Assistance",
+        "other": "Other"
+      },
+      "customPlaceholder": "Specify your aid type"
+    },
+    "subject": {
+      "placeholder": "Enter subject"
+    },
+    "searchAidFor": "Search by name or code",
+    "notTamilMember": "Not a member of Tamil Community?",
+    "enterDetails": "Enter Details",
+    "buttons": {
+      "submit": "Submit Request",
+      "done": "Done"
+    },
+    "modal": {
+      "success": "Aid Request Submitted"
+    },
+    "errors": {
+      "fillFields": "Please fill in all fields and select who needs aid.",
+      "uploadError": "Failed to upload recording",
+      "recordingError": "Failed to toggle recording",
+      "networkError": "Network error. Please try again later."
+    },
+    "info": {
+      "recordingSubject": "Please type a subject if you are recording."
+    }
+  },
+  "routeTitles": {
+    "aid": "Grievance",
+    "newsMagazine": "News Magazine",
+    "chatSupport": "Chat Support",
+    "editProfile": "Edit Profile",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "aidForm": {
+    "title": "Address Grievance",
+    "quickGuide": {
+      "title": "Quick Guide",
+      "steps": {
+        "step1": "1. Choose aid type",
+        "step2": "2. Enter subject",
+        "step3": "3. Describe your situation",
+        "step4": "4. Add voice (Optional)"
+      }
+    },
+    "aidType": {
+      "title": "Select Aid Type",
+      "placeholder": "Select aid type",
+      "types": {
+        "financial": "Financial Aid",
+        "medical": "Medical Assistance",
+        "legal": "Legal Support",
+        "education": "Education Support",
+        "housing": "Housing Assistance",
+        "food": "Food Assistance",
+        "other": "Other"
+      },
+      "customPlaceholder": "Specify your aid type"
+    },
+    "subject": {
+      "placeholder": "Subject"
+    },
+    "attachments": {
+      "title": "Attachments:"
+    },
+    "buttons": {
+      "submit": "Submit Request",
+      "done": "Done"
+    },
+    "modal": {
+      "success": "Request Submitted"
+    }
+  },
+  "payment": {
+    "title": "News Papers & Magazines",
+    "subscriptionPlans": "Subscription Plans",
+    "monthly": "Monthly Subscription",
+    "quarterly": "Quarterly Subscription",
+    "halfYearly": "Half Yearly Subscription",
+    "annually": "Annual Subscription",
+    "amount": "{amount} MYR",
+    "selectPaymentMethod": "Select Payment Method",
+    "paymentMethods": {
+      "paypal": "PayPal",
+      "paypalDescription": "You will be redirected to PayPal for secure transaction",
+      "ipay88": "IPay88",
+      "ipay88Description": "You will be redirected to IPay88 for secure transaction",
+      "bankTransfer": "Bank Transfer",
+      "bankTransferDescription": "Upload your payment receipt"
+    },
+    "proceedToPayment": "Proceed to Payment",
+    "uploadReceipt": "Upload Receipt",
+    "receiptUploaded": "Receipt Uploaded"
+  },
+  "newsMagazine": {
+    "title": "Tamil News Papers & Magazines PDF Versions",
+    "subtitle": "Access to all Tamil newspapers and magazines with a single subscription",
+    "monthly": "Monthly Subscription",
+    "monthlyDesc": "Access all content for one month",
+    "quarterly": "Quarterly Subscription",
+    "quarterlyDesc": "Save 10% with 3 months access",
+    "halfYearly": "Half Yearly Subscription",
+    "halfYearlyDesc": "Save 15% with 6 months access",
+    "annually": "Annual Subscription",
+    "annuallyDesc": "Save 20% with 12 months access",
+    "additionalInfo": "All subscriptions include unlimited access to archived content",
+    "currency": "MYR",
+    "selectPlan": "Select Plan"
+  },
+  "trackAidDetailsSelf1": {
+    "title": "Aid Details",
+    "requestId": "Request ID: ",
+    "requestedOn": "Requested On: ",
+    "requestStatus": "Request Status: ",
+    "aidType": "Aid Type: ",
+    "description": "Description: ",
+    "audioRecording": "Audio: ",
+    "cancelRequest": "Cancel Request",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancelRequestMessage": "Failed to cancel the request",
+    "cancelRequestSuccess": "Request has been successfully cancelled",
+    "networkError": "Network error. Please try again later."
+  },
+  "trackAidDetailsSomeone1": {
+    "title": "Aid Details",
+    "requestId": "Request ID: ",
+    "aidFor": "Aid For: ",
+    "requestedOn": "Requested On: ",
+    "requestStatus": "Request Status: ",
+    "aidType": "Aid Type: ",
+    "description": "Description: ",
+    "cancelRequest": "Cancel Request",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancelRequestMessage": "Failed to cancel the request",
+    "cancelRequestSuccess": "Request has been successfully cancelled",
+    "networkError": "Network error. Please try again later."
+  },
+  "expenseTable": {
+    "backButton": "Back",
+    "trackerTitle": "Grievance Tracker",
+    "searchPlaceholder": "Search by Request ID",
+    "allStatuses": "All Statuses",
+    "statusSent": "Sent",
+    "statusUnderReview": "Under Review",
+    "statusHold": "On Hold",
+    "statusAccepted": "Completed",
+    "statusRejected": "Denied",
+    "trackerForSelf": "Tracker for Self",
+    "columnSlNo": "Sl.No",
+    "columnDate": "Date",
+    "columnReqID": "Req. ID",
+    "columnType": "Type",
+    "columnStatus": "Status",
+    "noResultsFound": "No results found",
+    "trackerForSomeone": "Tracker for Someone",
+    "statusCancelled": "Cancelled"
+  },
+  "AidDetail": {
+    "title": "Request Details",
+    "aidType": "Aid Type: {AidType}",
+    "requestId": "Request ID: {RequestID}",
+    "status": "Status: {ProcessStatus}",
+    "description": "Description: {Description}",
+    "cancelButton": "Cancel Request",
+    "loading": "Loading...",
+    "errorFetching": "Failed to fetch request details",
+    "cancelRequestError": "Failed to cancel the request",
+    "cancelRequestSuccess": "Request has been canceled successfully"
+  },
+  "Aidforme": {
+    "title": "Grievance",
+    "subTitle": "What is your Grievance",
+    "selectAidComplaint": "What is your Grievance?",
+    "descriptionPlaceholder": "Description if any",
+    "submitButton": "Submit",
+    "writeRequestText": "Don't have the aid listed?",
+    "writeRequestLink": "Write a request",
+    "successModalText": "Your aid request has been sent to the team!",
+    "doneButton": "Done",
+    "errorMessage": "Please fill in all fields.",
+    "networkError": "Network error. Please try again later."
+  },
+  "aidOptions": {
+    "financialAid": "Financial Aid",
+    "legalAid": "Legal Aid",
+    "medicalAid": "Medical Aid",
+    "repatriationAssistance": "Repatriation Assistance",
+    "shelterBasicNeeds": "Shelter and Basic Needs",
+    "mentalHealthSupport": "Mental Health and Emotional Support",
+    "humanRightsSupport": "Human Rights and Advocacy Support",
+    "passportDocumentAid": "Passport and Document Aid",
+    "languageCommunicationSupport": "Language and Communication Support",
+    "familyAssistance": "Family Assistance",
+    "employmentRightsAdvocacy": "Employment Rights Advocacy",
+    "culturalOrientationSupport": "Cultural Orientation and Integration Support",
+    "workplaceSafetyTraining": "Workplace Safety Training",
+    "legalLaborDisputes": "Legal Assistance for Labor Disputes",
+    "financialLiteracyTraining": "Financial Literacy and Management Training",
+    "remittanceServices": "Access to Remittance Services",
+    "healthInsuranceGuidance": "Health Insurance Guidance",
+    "emergencyAssistanceFund": "Emergency Assistance Fund"
+  },
+  "complaintOptions": {
+    "wageTheft": "Wage Theft",
+    "unfairDismissal": "Unfair Dismissal",
+    "unsafeWorkingConditions": "Unsafe Working Conditions",
+    "lackOfHealthBenefits": "Lack of Health Benefits",
+    "harassmentDiscrimination": "Harassment or Discrimination",
+    "excessiveWorkingHours": "Excessive Working Hours",
+    "poorLivingConditions": "Poor Living Conditions",
+    "withheldPassports": "Withheld Passports",
+    "noLegalSupport": "No Access to Legal Support",
+    "failureToProvideSafetyGear": "Failure to Provide Safety Gear",
+    "basicUtilitiesDisconnection": "Disconnection of Basic Utilities",
+    "lackOfJobSecurity": "Lack of Job Security"
+  },
+  "aidFormeWriteReq": {
+    "title": "Aid/Complaint",
+    "aidComplaintForMe": "Aid/Complaint for me",
+    "enterYourRequest": "Enter your Aid Request/Complaint",
+    "subjectPlaceholder": "Subject",
+    "descriptionPlaceholder": "Describe your need",
+    "submitButton": "Submit",
+    "modalMessage": "Your aid request has been sent to the team!",
+    "doneButton": "Done"
+  },
+  "aidForNonMember": {
+    "title": "Non Member Details",
+    "fullNamePlaceholder": "Full Name",
+    "emailPlaceholder": "Email",
+    "mobileNumberPlaceholder": "Mobile Number",
+    "emergencyContactPersonNamePlaceholder": "Emergency Contact Person Name",
+    "emergencyContactNumberPlaceholder": "Emergency Contact Number",
+    "nextButton": "Next →",
+    "alreadyAddedDetails": "Already added Non Member Details? ",
+    "nextPage": "Next Page"
+  },
+  "aidForSomeone1": {
+    "aidComplaint": "Aid/Complaint",
+    "aidForSomeone": "Aid/Complaint for Someone",
+    "aidFor": "Aid/Complaint for",
+    "selectWhoNeedsAid": "Select who needs aid",
+    "selectAidComplaint": "Select Aid/Complaint",
+    "descriptionIfAny": "Description if any",
+    "submit": "Submit",
+    "noAidListed": "Don't have the aid listed?",
+    "writeRequest": "Write a request",
+    "searchAidFor": "Search Aid For",
+    "notTamilMember": "Not a Tamil Community Member?",
+    "enterDetails": "Enter Details",
+    "done": "Done",
+    "aidRequestSent": "Your aid request has been sent to the team!",
+    "pleaseFillAllFields": "Please fill in all fields.",
+    "networkError": "Network error. Please try again later."
+  },
+  "aidForSomeoneWriteReq": {
+    "aidComplaint": "Aid/Complaint",
+    "aidForSomeone": "Aid/Complaint for Someone",
+    "aidFor": "Aid/Complaint for",
+    "selectWhoNeedsAid": "Select who needs aid",
+    "enterAidComplaint": "Enter Aid/Complaint",
+    "subject": "Subject",
+    "descriptionIfAny": "Description if any",
+    "submit": "Submit",
+    "noAidListed": "Don't have the aid listed?",
+    "writeRequest": "Write a request",
+    "searchAidFor": "Search Aid For",
+    "notTamilMember": "Not a Tamil Community Member?",
+    "goBack": "Go Back",
+    "aidRequestSent": "Your aid request has been sent to the team!",
+    "pleaseFillAllFields": "Please fill in all fields.",
+    "networkError": "Network error. Please try again later."
+  },
+  "basicDetails": {
+    "completeProfile": "Complete your Profile",
+    "personalDetails": "Personal Details",
+    "fullName": "Full Name",
+    "email": "Email",
+    "mobileNumber": "Mobile Number",
+    "dobPlaceholder": "Date of Birth (DD/MM/YYYY)",
+    "currentLocation": "Current Location",
+    "nextButton": "Next →",
+    "errorDateFormat": "Please enter the date in DD/MM/YYYY format.",
+    "permissionDenied": "Permission to access location was denied"
+  },
+  
+    "emergencyDetails": {
+      "completeProfile": "Complete Your Profile",
+      "personalDetails": "Personal Details",
+      "emergencyDetails": "Emergency Contact Details",
+      "malaysiaEmergencyContactName": "Malaysia Emergency Contact Name",
+      "malaysiaEmergencyPhone": "Malaysia Emergency Phone Number",
+      "otherEmergencyContactName": "Other Emergency Contact Name",
+      "otherEmergencyPhone": "Other Emergency Phone Number",
+      "nextButton": "Next",
+      "errorContactName": "Please enter Malaysia emergency contact name.",
+      "errorEmergencyPhone": "Please enter Malaysia emergency phone number.",
+      "errorOtherContactName": "Please enter other emergency contact name.",
+      "errorOtherEmergencyPhone": "Please enter other emergency phone number."
+    ,
+    "alert": {
+      "attention": "Attention"
+    } },
+  
+  
+  "employerDetails": {
+    "completeYourProfile": "Complete your Profile",
+    "employerDetails": "Employer Details",
+    "employerFullName": "Employer Full Name",
+    "companyName": "Company Name",
+    "mobileNumber": "Mobile Number",
+    "employerIDNumber": "Employer ID Number",
+    "employerAddress": "Employer Address",
+    "selectCountry": "Select Country",
+    "selectState": "Select State",
+    "selectCity": "Select City",
+    "pinCode": "Pin Code",
+    "next": "Next →",
+    "errorFullName": "Please enter the employer's full name.",
+    "errorCompanyName": "Please enter the company name.",
+    "errorMobileNumber": "Please enter a valid mobile number.",
+    "errorIDNumber": "Please enter a valid ID number.",
+    "errorAddress": "Please enter the employer's address.",
+    "errorState": "Please select a state.",
+    "errorCity": "Please select a city.",
+    "errorPinCode": "Please enter a valid pin code."
+  },
+  "malaysiaDetails": {
+    "completeProfile": "Complete your Profile",
+    "personalDetails": "Personal Details",
+    "malaysiaResidenceDetails": "Malaysia Residence Details",
+    "malaysiaResidenceAddress": "Malaysia Residence Address",
+    "selectState": "Select State",
+    "selectCity": "Select City",
+    "pinCode": "Pin Code",
+    "contactPersonName": "Malaysia Residence Contact Person Name",
+    "contactPersonPhone": "Malaysia Residence Contact Person Phone",
+    "next": "Next →",
+    "errorAddress": "Please enter your address.",
+    "errorPinCode": "Please enter a valid pin code.",
+    "errorContactPersonName": "Please enter the contact person's name.",
+    "errorContactPersonPhone": "Please enter a valid phone number.",
+    "errorState": "Please select a state.",
+    "errorCity": "Please select a city."
+  },
+  "malaysiaWorkDetails": {
+    "completeProfile": "Complete your Profile",
+    "personalDetails": "Personal Details",
+    "malaysiaWorkDetails": "Malaysia Work Details",
+    "malaysiaWorkAddress": "Malaysia Work Address",
+    "selectState": "Select State",
+    "selectCity": "Select City",
+    "pinCode": "Pin Code",
+    "contactPersonName": "Malaysia Work Contact Person Name",
+    "contactPersonPhone": "Malaysia Work Contact Person Phone",
+    "next": "Next →",
+    "errorAddress": "Please enter your work address.",
+    "errorPinCode": "Please enter a valid pin code.",
+    "errorContactPersonName": "Please enter the contact person's name.",
+    "errorContactPersonPhone": "Please enter a valid phone number.",
+    "errorState": "Please select a state.",
+    "errorCity": "Please select a city."
+  },
+  "nativeDetails": {
+    "completeProfile": "Complete your Profile",
+    "personalDetails": "Personal Details",
+    "nativeDetails": "Native Details",
+    "nativeResidenceAddress": "Native Residence Address",
+    "selectCountry": "Select Country",
+    "selectState": "Select State",
+    "selectCity": "Select City",
+    "pinCode": "Pin Code",
+    "nativeContactPersonName": "Native Residence Contact Person Name",
+    "nativeContactPersonPhone": "Native Residence Contact Person Phone",
+    "next": "Next →",
+    "errorAddress": "Please enter your address.",
+    "errorPinCode": "Please enter a valid pin code.",
+    "errorContactPersonName": "Please enter the contact person's name.",
+    "errorContactPersonPhone": "Please enter a valid phone number.",
+    "errorCountry": "Please select a country.",
+    "errorState": "Please select a state.",
+    "errorCity": "Please select a city."
+  },
+  
+    "passportDetails": {
+      "completeProfile": "Complete Your Profile",
+      "passportDetails": "Passport Details",
+      "passportNumber": "Passport Number",
+      "surname": "Surname",
+      "givenNames": "Given Names",
+      "nationality": "Nationality",
+      "dateOfIssue": "Date of Issue",
+      "dateOfExpiry": "Date of Expiry",
+      "placeOfIssue": "Place of Issue",
+      "next": "Next",
+      "registering": "Registering...",
+      "errorPassportNumber": "Please enter your passport number.",
+      "errorSurname": "Please enter your surname.",
+      "errorGivenNames": "Please enter your given names.",
+      "errorNationality": "Please enter your nationality.",
+      "errorDateOfIssue": "Please enter the date of issue.",
+      "errorDateOfExpiry": "Please enter the date of expiry.",
+      "errorPlaceOfIssue": "Please enter the place of issue.",
+      "errorLogin": "Your session has expired. Please log in again.",
+      "alert": {
+      "attention": "Attention"
+    }
+  },
+  "registered": {
+    "congratulations": "Congratulations!",
+    "registrationSuccess": "Your profile has been successfully registered with the Tamil Community",
+    "done": "Done"
+  },
+  "paymen1t": {
+    "title": "Newspapers & Magazines",
+    "pdfVersions": "PDF Versions of Tamil News Papers and Magazines",
+    "costLabel": "{cost}.00 MYR",
+    "paypal": "PayPal",
+    "paypalDescription": "You will be redirected to PayPal website to complete your order securely.",
+    "ipay88": "IPay88",
+    "ipay88Description": "You will be redirected to Ipay88 website to complete your order securely.",
+    "uploadReceipt": "Upload Receipt",
+    "uploadDescription": "Upload the receipt to confirm your payment.",
+    "payButton": "Pay",
+    "uploadButton": "Upload",
+    "receiptUploaded": "Receipt Uploaded"
+  },
+  "editProfile": {
+    "title": "Edit Profile",
+    "defaultName": "John Doe",
+    "defaultEmail": "john.doe@example.com",
+    "userCode": "User Code",
+    "sections": {
+      "personalDetails": "Personal Details",
+      "nativeDetails": "Native Details",
+      "malaysiaResidenceDetails": "Malaysia Residence Details",
+      "employerDetails": "Employer Details",
+      "passportDetails": "Passport Details"
+    },
+    "fields": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "mobileNumber": "Mobile Number",
+      "dateOfBirth": "Date of Birth",
+      "nativeAddress": "Native Address",
+      "city": "City",
+      "state": "State",
+      "pinCode": "Pin Code",
+      "contactPersonName": "Contact Person Name",
+      "contactPersonPhone": "Contact Person Phone",
+      "residenceAddress": "Residence Address",
+      "employerFullName": "Employer Full Name",
+      "companyName": "Company Name",
+      "employerAddress": "Employer Address",
+      "passportNumber": "Passport Number",
+      "surname": "Surname",
+      "givenNames": "Given Names",
+      "nationality": "Nationality",
+      "dateOfIssue": "Date of Issue",
+      "dateOfExpiry": "Date of Expiry",
+      "placeOfIssue": "Place of Issue"
+    },
+    "buttons": {
+      "update": "Update",
+      "cancel": "Cancel"
+    },
+    "alerts": {
+      "success": "Success",
+      "failedToUpdateProfile": "Failed to update profile",
+      "errorOccurred": "An error occurred while saving the profile",
+      "permissionRequired": "Permission required",
+      "permissionMediaAccess": "Permission to access media is required!"
+    }
+  },
+  "ForgetPassword": {
+    "welcome_to": "Welcome to",
+    "tamil_community_portal": "Tamil Community Portal",
+    "place_for_tamils": "A place for the Tamils outside India",
+    "mobile_number": "Mobile Number",
+    "password": "Password",
+    "forgot_password": "Forgot password?",
+    "sign_in": "Sign In",
+    "dont_have_account": "Don't have an account?",
+    "create_account": "Create an account"
+  },
+  "newsMagazine1": {
+    "title": "Tamil News Papers & Magazines PDF Versions",
+    "subtitle": "Access to all Tamil newspapers and magazines with a single subscription",
+    "monthly": "Monthly Subscription",
+    "monthlyDesc": "Access all content for one month",
+    "quarterly": "Quarterly Subscription",
+    "quarterlyDesc": "Save 10% with 3 months access",
+    "halfYearly": "Half Yearly Subscription",
+    "halfYearlyDesc": "Save 15% with 6 months access",
+    "annually": "Annual Subscription",
+    "annuallyDesc": "Save 20% with 12 months access",
+    "additionalInfo": "All subscriptions include unlimited access to archived content",
+    "currency": "MYR",
+    "selectPlan": "Select Plan"
+  },
+  "login": {
+    "welcome_to": "Welcome to",
+    "tamil_community_portal": "Tamil Community Portal",
+    "place_for_tamils": "A place for the Tamils outside India",
+    "mobile_number": "Mobile Number",
+    "password": "Password",
+    "forgot_password": "Forgot password?",
+    "sign_in": "Sign In",
+    "signing_in": "Signing In...",
+    "dont_have_account": "Don't have an account?",
+    "create_account": "Create an account",
+    "incomplete_details": "Incomplete Details",
+    "please_fill_basic_details": "Please fill in your basic details to continue.",
+    "alerts": {
+      "attention": "Attention",
+      "fillBothFields": "Please fill in both mobile number and password",
+      "loginSuccess": "Login successful!",
+      "success": "Success",
+      "networkError": "Network error. Please try again later.",
+      "invalidCredentials": "Invalid mobile number or password",
+      "incompleteDetails": "Incomplete Details",
+      "fillBasicDetails": "Please fill in your basic details to continue",
+      "fillphone":"Please enter your phone number",
+        "fillpassword":"Please enter your password"
+    }
+  },
+  "chatSupport": {
+    "title": "Chat Support",
+    "subtitle": "Get instant help from our support team",
+    "startChat": "Start Chat",
+    "supportInfo": {
+      "title": "Support Information",
+      "availability": {
+        "title": "Availability",
+        "description": "Our support team is available 24/7 to assist you with any questions or concerns."
+      },
+      "responseTime": {
+        "title": "Response Time",
+        "description": "We strive to respond to all inquiries within 5 minutes during peak hours."
+      }
+    },
+    "modal": {
+      "redirecting": "Redirecting to chat support...",
+      "done": "Done"
+    }
+  },
+  "apiMessages": {
+    "confirmAccount": "Please confirm your account from the link sent to your mailid",
+    "invalidCredentials": "Invalid credentials"
+  },
+  "alerts": {
+    "error": "Error",
+    "failedToAttachFile": "Failed to attach file",
+    "fillAllFields": "Please fill in all fields.",
+    "uploadError": "Upload Error",
+    "failedToUploadRecording": "Failed to upload recording",
+    "failedToSubmitRequest": "Failed to submit the request",
+    "networkError": "Network error. Please try again later.",
+    "information": "Information",
+    "recordingSubjectInfo": "Please type a subject if you are recording.",
+    "recordingPermissionError": "Audio recording permission not granted.",
+    "failedToStartRecording": "Failed to start recording",
+    "unknownError": "An unknown error occurred"
+  },
+  "aidForNonMembersteps": {
+    "quickGuide": {
+      "title": "Quick Guide",
+      "steps": {
+        "step1": "1. Fill in the details of the Non Member",
+        "step2": "2. Submit to proceed with aid request"
+      }
+    }
+  },
+  "aidForSomeoneNonMember": {
+    "pageTitle": "Grievance for Non Member",
+    "grievanceFor": "Grievance for?",
+    "selectAidFor": "Select who needs aid",
+    "searchPlaceholder": "Search Aid For",
+    "memberQuestion": "Aid Tamil Community Member?",
+    "goBack": "Go Back",
+    "done": "Done",
+    "selectAidType": "Select Aid Type",
+    "aidTypes": {
+      "select": "Select aid type",
+      "financial": "Financial Aid",
+      "medical": "Medical Assistance",
+      "legal": "Legal Support",
+      "education": "Education Support",
+      "housing": "Housing Assistance",
+      "food": "Food Assistance",
+      "other": "Other"
+    },
+    "customAidType": "Specify your aid type",
+    "subject": "Subject",
+    "attachments": "Attachments:",
+    "submitRequest": "Submit Request",
+    "requestSubmitted": "Request Submitted",
+    "alerts": {
+      "fillAllFields": "Please fill in all fields.",
+      "submitError": "Failed to submit the request.",
+      "networkError": "Network error. Please try again later."
+    }
+  },
+  "mailSent": {
+    "title": "Verify Your Email",
+    "subtitle": "Please check your inbox",
+    "emailSentTo": "We've sent a verification email to",
+    "nextSteps": {
+      "title": "Next Steps:",
+      "step1": "1. Open the email from our team",
+      "step2": "2. Click on the verification link in the email",
+      "step3": "3. Once verified, return here to log in"
+    },
+    "proceedToLogin": "Proceed to Login",
+    "resendEmail": {
+      "question": "Did not receive the email?",
+      "resend": "Resend Email",
+      "resending": "Resending..."
+    },
+    "toasts": {
+      "resendSuccess": "Verification email resent successfully.",
+      "resendFailed": "Failed to resend the verification email.",
+      "error": "An error occurred while resending the email."
+    }
+  },
+  "mobileRegistration": {
+    "mobileRegistered": "Your mobile number has been registered.",
+    "completeProfile": "Please complete your profile to become a member.",
+    "done": "Done"
+  },
+  "newPassword": {
+    "setNewPassword": "Set New Password",
+    "enterNewPassword": "Please enter your new password and verification code",
+    "verificationCode": "Verification Code",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "resetPassword": "Reset Password",
+    "resetting": "Resetting...",
+    "errorPasswordsDoNotMatch": "Passwords do not match.",
+    "errorPasswordEmpty": "Password cannot be empty.",
+    "errorVerificationCodeEmpty": "Verification code cannot be empty.",
+    "successResetPassword": "Password successfully reset.",
+    "errorResetPassword": "Failed to reset password.",
+    "errorSomethingWentWrong": "Something went wrong. Please try again.",
+    "passwordCannotBeEmpty": "Password cannot be empty.",
+    "verificationCodeCannotBeEmpty": "Verification code cannot be empty."
+    
+
+  },
+  "otpverification": {
+    "enterCode": "Enter the code we just sent you",
+    "invalidOtp": "Invalid OTP",
+    "otpError": "Please enter all 4 digits of the OTP.",
+    "verify": "Verify",
+    "wrongNumber": "Wrong number?",
+    "goBack": "Go back"
+  },
+  "recording": {
+    "stopRecording": "Stop Recording",
+    "Recording": "Recording",
+    "recordVoice": "Record Voice",
+    "playRecording": "Play Recording",
+    "deleteRecording": "Delete Recording"
+  },
+  "passwordReset": {
+    "passwordReset": "Password Reset",
+    "title": "Enter your registered email address",
+    "emailPlaceholder": "Enter your email",
+    "sendButton": {
+      "sending": "Sending...",
+      "send": "Send"
+    },
+    "verificationMessage": "Please check your mail for verification code",
+    "error": "Attention",
+    "verificationCodeMessage": "Please enter your email address",
+    "success": {
+      "title": "Success",
+      "message": "Password reset email sent successfully."
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again.",
+      "emailSend": "Failed to send reset email."
+    }
+  },
+  "alert": {
+    "attention": "Attention",
+    "pleaseFillBothFields": "Please fill in both fields"
+  },
+  "signup": {
+    "welcome": "Welcome!",
+    "portalTitle": "Tamil Community Portal",
+    "portalDescription": "Join our community and connect with fellow members",
+    "fullNamePlaceholder": "Full Name",
+    "emailPlaceholder": "Email Address",
+    "mobileNumberPlaceholder": "Mobile Number",
+    "passwordPlaceholder": "Password",
+    "createAccount": "Create Account",
+    "creatingAccount": "Creating Account...",
+    "alreadyHaveAccount": "Already have an account?",
+    "signIn": "Sign In",
+    "fullNameRequired": "Full name is required",
+    "emailRequired": "Email is required",
+    "invalidEmail": "Please enter a valid email address",
+    "mobileNumberRequired": "Mobile number is required",
+    "passwordRequired": "Password is required",
+    "passwordTooShort": "Password must be at least 6 characters",
+    "pleaseFixErrors": "Please correct the fields before submitting",
+    "accountCreated": "Account created successfully!",
+    "userAlreadyExists": "A user with this email already exists",
+    "somethingWentWrong": "Something went wrong. Please try again",
+    "networkError": "Network error. Please check your connection and try again"
+  },
+  "aid": {
+    "communityNews": "Malaysia News",
+    "loadingNews": "Loading news...",
+    "noNews": "No news available",
+    "addressGrievance": "Address Grievance",
+    "requestAid": "Request Aid",
+    "myself": "Myself",
+    "someoneElse": "Someone Else",
+    "trackRequests": "Track your aid requests and complaints",
+    "writeRequest": "Write a Request",
+    "notInList": "Not in the list?",
+    "description": "Description (if any)",
+    "submit": "Submit",
+    "requestSent": "Your aid request has been sent to the team!",
+    "done": "Done",
+    "fillAllFields": "Please fill all fields.",
+    "networkError": "Network error. Please try again later."
+  }, 
+  "trackAidDetailsSelf": {
+    "title": "Grievance Details",
+    "requestId": "Request ID:",
+    "requestedOn": "Requested On:",
+    "requestStatus": "Status:",
+    "aidType": "Aid Type:",
+    "description": "Description:",
+    "discussions": "Discussions",
+    "loading": "Loading...",
+    "loadingComments": "Loading comments...",
+    "noComments": "No comments yet",
+    "cancelRequest": "Cancel Request",
+    "cancelRequestMessage": "Failed to fetch request details",
+    "networkError": "Network error occurred",
+    "error": "Attention",
+    "confirmCancelTitle": "Cancel Request",
+    "confirmCancelMessage": "Are you sure you want to cancel this request?",
+    "yes": "Yes",
+    "no": "No",
+    "tamilCommunityTeam": "Tamil Community Team",
+    "emptyComment": "Please enter a comment or record audio before sending.",
+    "stopRecording": "Please stop recording before sending a reply.",
+    "success": "Success",
+    "commentAdded": "Comment added successfully",
+    
+    "actionDisabled": "You cannot go back while recording is in progress.",
+    "reply": {
+      "title": "Your Reply",
+      "sendButton": "Send Reply",
+      "attachments": "Attachments:",
+      "sending": "Sending...",
+      "placeholder": "Type your reply here..."
+    }
+
+  },
+  "profile": {
+    
+      "Profile": "Profile",
+      "PersonalDetails": "Personal Details",
+      "FullName": "Full Name",
+      "Email": "Email",
+      "MobileNumber": "Mobile Number",
+      "DateofBirth": "Date of Birth",
+      "CurrentLocation": "Current Location",
+      "NativeDetails": "Native Details",
+      "NativeAddress": "Native Address",
+      "City": "City",
+      "State": "State",
+      "PinCode": "Pin Code",
+      "ContactPersonName": "Contact Person Name",
+      "ContactPersonPhone": "Contact Person Phone",
+      "MalaysiaResidenceDetails": "Malaysia Residence Details",
+      "ResidenceAddress": "Residence Address",
+      "MalaysiaResidenceCity": "Malaysia Residence City",
+      "MalaysiaResidenceState": "Malaysia Residence State",
+      "MalaysiaResidencePinCode": "Malaysia Residence Pin Code",
+      "MalaysiaContactPersonName": "Malaysia Contact Person Name",
+      "MalaysiaContactPersonPhone": "Malaysia Contact Person Phone",
+      "EmergencyContactDetails": "Emergency Contact Details",
+      "EmergencyContactPerson": "Emergency Contact Person",
+      "EmergencyPhone": "Emergency Phone",
+      "OtherContactPerson": "Other Contact Person",
+      "OtherPhone": "Other Phone",
+      "EmployerDetails": "Employer Details",
+      "EmployerFullName": "Employer Full Name",
+      "CompanyName": "Company Name",
+      "EmployerAddress": "Employer Address",
+      "EmployerCity": "Employer City",
+      "EmployerState": "Employer State",
+      "EmployerPinCode": "Employer Pin Code",
+      "PassportDetails": "Passport Details",
+      "PassportNumber": "Passport Number",
+      "Surname": "Surname",
+      "GivenNames": "Given Names",
+      "OK": "OK"
+
+  },"exit": {
+    "title": "Exit Account",
+    "message": "You are about to exit your account. Do you want to continue?",
+    "cancel": "Cancel",
+    "confirm": "Exit"
+  }, 
+ 
+  "trackAidDetailsSomeone": {
+    "title": "Grievance Details",
+    "requestId": "Request ID: ",
+    "aidFor": "Aid For: ",
+    "requestedOn": "Requested On: ",
+    "requestStatus": "Request Status: ",
+    "aidType": "Aid Type: ",
+    "description": "Description: ",
+    "audioRecording": "Audio Recording: ",
+    "discussions": "Discussions",
+    "playAudio": "Play Audio",
+    "pauseAudio": "Pause Audio",
+    "addComment": "Add Comment",
+    "writeComment": "Write a comment...",
+    "send": "Send",
+    "sending": "Sending...",
+    "attachFile": "Attach File",
+    "recordVoice": "Record Voice",
+    "stopRecording": "Stop Recording",
+    "deleteRecording": "Delete Recording",
+    "playRecording": "Play Recording",
+    "noComments": "No comments yet",
+    "loadingComments": "Loading comments...",
+    "errorLoadingComments": "Error loading comments",
+    "commentAdded": "Comment added successfully",
+    "errorAddingComment": "Error adding comment",
+    "cancelRequest": "Cancel Request",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancelRequestMessage": "Failed to cancel the request",
+    "cancelRequestSuccess": "Request has been successfully cancelled",
+    "networkError": "Network error. Please try again later",
+    "notAvailable": "N/A"
+  },
+  "descriptionInput": {
+    "placeholder": "Describe the situation and the aid needed...",
+    "buttons": {
+      "record": "Record Voice",
+      "stopRecording": "Stop Recording",
+      "play": "Play Recording",
+      "delete": "Delete Recording",
+      "attach": "Attach File"
+    },
+    "accessibility": {
+      "recordButton": "Toggle voice recording",
+      "playButton": "Play recorded message",
+      "deleteButton": "Delete recorded message",
+      "attachButton": "Attach a file"
+    }
+  },
+  "registration": {
+    "successTitle": "Registration Complete",
+    "successMessage": "Your account has been successfully created. You're now ready to explore our services.",
+    "nextStepsTitle": "Next Steps",
+    "nextStepsExplore": "Explore Available Services",
+    "nextStepsExploreDescription": "Discover the range of services and support options available to you.",
+    "getStarted": "Get Started"
+  }
+}

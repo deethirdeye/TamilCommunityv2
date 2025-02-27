@@ -1,0 +1,965 @@
+{
+  "app": {
+    "aid": "உதவி/புகார்",
+    "news": "செய்திகள் & முறைப்படுத்தல்",
+    "chatSupport": "அழைப்பு ஆதரவு",
+    "editProfile": "மாற்று சுயவிவரம்",
+    "login": "உள்நுழை",
+    "logout": "வெளியேறு",
+    "currentLanguage": "தற்போதைய மொழி: தமிழ்",
+    "confirmLogout": "வெளியேற ஏற்கனவே உறுதியாக்கவும்",
+    "logoutConfirmation": "நீங்கள் வெளியேற விரும்புகிறீர்களா?",
+    "cancel": "ரத்து செய்",
+    "yes": "வெளியேறு",
+    "errorLoadingUserDetails": "பயனர் விவரங்களை ஏற்றுவதில் பிழை"
+  },
+  "tabs": {
+    "aid": "மனக்குறை",
+    "newsMagazine": "செய்திகள்",
+    "chatSupport": "ஆதரவு",
+    "chat": "சேவை"
+  },
+  "requestAid": {
+    "title": "மனக்குறை யாருக்காக?",
+    "myself": "நானே",
+    "someoneElse": "வேறு ஒருவர்",
+    "trackAidsComplaints": "கண்காணிக்க",
+    "aidSentMessage": "உங்கள் உதவி கோரிக்கை குழுவிற்கு அனுப்பப்பட்டுள்ளது!",
+    "done": "முடிந்தது"
+  },
+  "chatSupport1": {
+    "title": "வாட்ஸ்அப் மூலம் எங்களுடன் தொடர்பு கொள்ளுங்கள்",
+    "goToChat": "அரட்டைக்கு செல்லவும்",
+    "redirectMessage": "நீங்கள் வாட்ஸ்அப்பிற்கு மறுஉருவாக்கப்படுவீர்கள்",
+    "done": "முடிந்தது"
+  },
+  "aidForm": {
+    "title": "புகார் அளிக்க",
+    "quickGuide": {
+      "title": "விரைவு வழிகாட்டி",
+      "steps": {
+        "step1": "1. உதவி வகையைத் தேர்ந்தெடுக்கவும்",
+        "step2": "2. தலைப்பை உள்ளிடவும்",
+        "step3": "3. உங்கள் நிலையை விவரிக்கவும்",
+        "step4": "4. குரல் சேர்க்கவும் (விருப்பத்திற்குரியது)"
+      }
+    },
+    "aidType": {
+      "title": "உதவி வகையைத் தேர்ந்தெடுக்கவும்",
+      "placeholder": "உதவி வகையைத் தேர்ந்தெடுக்கவும்",
+      "types": {
+        "financial": "நிதி உதவி",
+        "medical": "மருத்துவ உதவி",
+        "legal": "சட்ட ஆதரவு",
+        "education": "கல்வி உதவி",
+        "housing": "வீட்டு வசதி உதவி",
+        "food": "உணவு உதவி",
+        "other": "மற்றவை"
+      },
+      "customPlaceholder": "உங்கள் உதவி வகையைக் குறிப்பிடவும்"
+    },
+    "subject": {
+      "placeholder": "தலைப்பு"
+    },
+    "attachments": {
+      "title": "இணைப்புகள்:"
+    },
+    "buttons": {
+      "submit": "கோரிக்கையை சமர்ப்பிக்கவும்",
+      "done": "முடிந்தது"
+    },
+    "modal": {
+      "success": "சமர்ப்பிக்கப்பட்டது"
+    }
+  },
+  "aidForSomeone": {
+    "title": "பிறருக்கான உதவி",
+    "quickGuide": {
+      "title": "விரைவு வழிகாட்டி",
+      "steps": {
+        "step1": "1. யாருக்கு உதவி தேவை என்பதைத் தேர்ந்தெடுக்கவும்",
+        "step2": "2. உதவி வகையைத் தேர்ந்தெடுக்கவும்",
+        "step3": "3. தலைப்பை உள்ளிட்டு சூழ்நிலையை விவரிக்கவும்",
+        "step4": "4. குரல் சேர்க்கவும் (விருப்பத்திற்குரியது)"
+      }
+    },
+    "selectAidFor": "யாருக்கு உதவி தேவை என்பதைத் தேர்ந்தெடுக்கவும்",
+    "aidType": {
+      "title": "உதவி வகையைத் தேர்ந்தெடுக்கவும்",
+      "placeholder": "உதவி வகையைத் தேர்ந்தெடுக்கவும்",
+      "types": {
+        "financial": "நிதி உதவி",
+        "medical": "மருத்துவ உதவி",
+        "legal": "சட்ட ஆதரவு",
+        "education": "கல்வி உதவி",
+        "housing": "வீட்டு வசதி உதவி",
+        "food": "உணவு உதவி",
+        "other": "மற்றவை"
+      },
+      "customPlaceholder": "உங்கள் உதவி வகையைக் குறிப்பிடவும்"
+    },
+    "subject": {
+      "placeholder": "தலைப்பை உள்ளிடவும்"
+    },
+    "searchAidFor": "பெயர் அல்லது குறியீட்டால் தேடவும்",
+    "notTamilMember": "தமிழ் சமூக உறுப்பினரா?",
+    "enterDetails": "விவரங்களை உள்ளிடவும்",
+    "buttons": {
+      "submit": "கோரிக்கையை சமர்ப்பிக்கவும்",
+      "done": "முடிந்தது"
+    },
+    "modal": {
+      "success": "உதவி கோரிக்கை சமர்ப்பிக்கப்பட்டது"
+    },
+    "errors": {
+      "fillFields": "அனைத்து விவரங்களையும் நிரப்பி, யாருக்கு உதவி தேவை என்பதைத் தேர்ந்தெடுக்கவும்.",
+      "uploadError": "பதிவை பதிவேற்ற முடியவில்லை",
+      "recordingError": "பதிவை மாற்ற முடியவில்லை",
+      "networkError": "இணைய பிழை. பிறகு முயற்சிக்கவும்."
+    },
+    "info": {
+      "recordingSubject": "பதிவு செய்யும் போது தலைப்பை தட்டச்சு செய்யவும்."
+    }
+  },
+  "newsMagazine1": {
+    "title": "தமிழ் செய்தி தாள்கள் மற்றும் இதழ்களின் PDF பதிப்புகள்",
+    "monthly": "மாதாந்து 10 MYR",
+    "quarterly": "மூன்று மாதம் 30 MYR",
+    "halfYearly": "அரையாண்டு 60 MYR",
+    "annually": "ஆண்டாந்து 120 MYR"
+  },
+  "payment": {
+    "title": "செய்தித்தாள்கள் & மாத இதழ்கள்",
+    "subscriptionPlans": "சந்தா ",
+    "monthly": "மாதா��்திர சந்தா",
+    "quarterly": "காலாண்டு சந்தா",
+    "halfYearly": "அரையாண்டு சந்தா",
+    "annually": "வருடாந்திர சந்தா",
+    "amount": "{amount} MYR",
+    "selectPaymentMethod": "கட்டண முறையைத் தேர்ந்தெடுக்கவும்",
+    "paymentMethods": {
+      "paypal": "பேபால்",
+      "paypalDescription": "பங்கள் ஆர்டரை பாதுகாப்பாக முடிக்க பேபால் இணையதளத்திற்கு மாற்றப்படுவீர்கள்",
+      "ipay88": "IPay88",
+      "ipay88Description": "உங்கள் ஆர்டரை பாதுகாப்பாக முடிக்க IPay88 இணையதளத்திற்கு மாற்றப்படுவர்கள்.",
+      "bankTransfer": "வங்கி பரிமாற்றம்",
+      "bankTransferDescription": "ரசீதை பதிவேற்றம் செய்யவும்"
+    },
+    "proceedToPayment": "கட்டணம் செலுத்த தொடரவும்",
+    "uploadReceipt": "ரசீதை பதிவேற்றவும்",
+    "receiptUploaded": "ரசீது பதிவேற்றப்பட்டது"
+  },
+  "trackAidDetailsSelf1": {
+    "title": "விவரங்கள்",
+    "requestId": "கோரிக்கை ஐடி: ",
+    "requestedOn": "கோரிக்கப்பட்ட நாள்: ",
+    "requestStatus": "கோரிக்கை நிலை: ",
+    "aidType": "உதவி வகை: ",
+    "description": "விளக்கம்: ",
+    "cancelRequest": "கோரிக்கையை ரத்து செய்யவும்",
+    "loading": "ஏற்றுகிறது...",
+    "error": "பிழை",
+    "success": "வெற்றி",
+    "cancelRequestMessage": "கோரிக்கையை ரத்து செய்ய முடியவில்லை",
+    "cancelRequestSuccess": "உங்கள் கோரிக்கை வெற்றிகரமாக ரத்து செய்யப்பட்டது",
+    "networkError": "நெட்வொர்க் பிழை. தயவுசெய்து பின்னர் முயற்சிக்கவும்."
+  },
+  "trackAidDetailsSomeone1": {
+    "title": "விவரங்கள்",
+    "requestId": "கோரிக்கை ஐடி: ",
+    "aidFor": "உதவி பெறுபவர்: ",
+    "requestedOn": "கோரிக்கப்பட்ட நாள்: ",
+    "requestStatus": "கோரிக்கை நிலை: ",
+    "aidType": "உதவி வகை: ",
+    "description": "விளக்கம்: ",
+    "cancelRequest": "கோரிக்கையை ரத்து செய்யவும்",
+    "loading": "ஏற்றுகிறது...",
+    "error": "பிழை",
+    "success": "வெற்றி",
+    "cancelRequestMessage": "கோரிக்கையை ரத்து செய்ய முடியவில்லை",
+    "cancelRequestSuccess": "உங்கள் கோரிக்கை வெற்றிகரமாக ரத்து செய்யப்பட்டது",
+    "networkError": "நெட்வொர்க் பிழை. தயவுசெய்து பின்னர் முயற்சிக்கவும்."
+  },
+  "expenseTable": {
+    "backButton": "மீண்டும்",
+    "trackerTitle": "புகார் கண்டறிதல்",
+    "searchPlaceholder": "அரசு கோரிக்கை ஐடியைக் கொண்டு தேடுங்கள்",
+    "allStatuses": "அனைத்து நிலைகளும்",
+    "statusSent": "அனுப்பப்பட்டது",
+    "statusUnderReview": "சரிபார்க்கப்படுகிறது",
+    "statusHold": "நெருங்கிய நிலை",
+    "statusAccepted": "ஏற்றுக்கொள்ளப்பட்டது",
+    "statusRejected": "மறைக்கப்பட்டது",
+    "trackerForSelf": "சுயமான கண்டறிதல்",
+    "columnSlNo": "வரிசை எண்",
+    "columnDate": "தேதி",
+    "columnReqID": "கோரிக்கை ஐடி",
+    "columnType": "வகை",
+    "columnStatus": "நிலை",
+    "noResultsFound": "எந்த தகவலும் இல்லை",
+    "trackerForSomeone": "மற்றவருக்கான கண்டறிதல்",
+    "statusCancelled": "ரத்து செய்யப்பட்டது"
+  },
+  "exit": {
+    "title": "கணக்கை விட்டு வெளியேறவும்",
+    "message": "நீங்கள் உங்கள் கணக்கை விட்டு வெளியேறப்போகிறீர்கள். தொடர விரும்புகிறீர்களா?",
+    "cancel": "ரத்து செய்",
+    "confirm": "வெளியேறு"
+  },
+  
+  "profile": {
+    
+    "Profile": "சுயவிவரம்",
+    "PersonalDetails": "பிறந்த விவரங்கள்",
+    "FullName": "முழுப்பெயர்",
+    "Email": "மின்னஞ்சல்",
+    "MobileNumber": "செல்லிடப்பேசி எண்",
+    "DateofBirth": "பிறந்த தேதி",
+    "CurrentLocation": "தற்போதைய இடம்",
+    "NativeDetails": "பூர்வீக விவரங்கள்",
+    "Native Address": "பூர்வீக முகவரி",
+    "City": "நகரம்",
+    "State": "மாநிலம்",
+    "PinCode": "பின்கோடு",
+    "ContactPersonName": "தொடர்பு நபரின் பெயர்",
+    "ContactPersonPhone": "தொடர்பு நபரின் தொலைபேசி",
+    "MalaysiaResidenceDetails": "மலேஷியாவில் வசிக்கும் விவரங்கள்",
+    "ResidenceAddress": "வசிக்கும் முகவரி",
+    "MalaysiaResidenceCity": "மலேசியா நகரம்",
+    "MalaysiaResidenceState": "மலேசியா மாநிலம்",
+    "MalaysiaResidencePin Code": "மலேசியா பின்கோடு",
+    "MalaysiaContactPerson Name": "மலேசியா தொடர்பு நபரின் பெயர்",
+    "MalaysiaContactPerson Phone": "மலேசியா தொடர்பு நபரின் தொலைபேசி",
+    "EmergencyContactDetails": "அவசர தொடர்பு விவரங்கள்",
+    "EmergencyContactPerson": "அவசர தொடர்பு நபர்",
+    "EmergencyPhone": "அவசர தொலைபேசி",
+    "OtherContact Person": "மற்ற தொடர்பு நபர்",
+    "OtherPhone": "மற்ற தொலைபேசி",
+    "EmployerDetails": "பணியாளர் விவரங்கள்",
+    "EmployerFull Name": "பணியாளர் முழுப்பெயர்",
+    "CompanyName": "கம்பனி பெயர்",
+    "EmployerAddress": "பணியாளர் முகவரி",
+    "EmployerCity": "பணியாளர் நகரம்",
+    "EmployerState": "பணியாளர் மாநிலம்",
+    "EmployerPin Code": "பணியாளர் பின்கோடு",
+    "PassportDetails": "பாஸ்போர்ட் விவரங்கள்",
+    "PassportNumber": "பாஸ்போர்ட் எண்",
+    "Surname": "குடும்பப் பெயர்",
+    "GivenNames": "தந்து உள்ள பெயர்கள்",
+    "OK": "சரி"
+  
+  
+},
+  
+  "AidDetail": {
+    "title": "கோரிக்கையின் விவரங்கள்",
+    "aidType": "உதவியின் வகை: {AidType}",
+    "requestId": "கோரிக்கை ஐடி: {RequestID}",
+    "status": "நிலை: {ProcessStatus}",
+    "description": "விளக்கம்: {Description}",
+    "cancelButton": "கோரிக்கையை ரத்து செய்க",
+    "loading": "ஏற்றுகிறது...",
+    "errorFetching": "விண்ணப்பத்தின் விவரங்களை பெற முடியவில்லை",
+    "cancelRequestError": "விண்ணப்பத்தை ரத்து செய்ய முடியவில்லை",
+    "cancelRequestSuccess": "விண்ணப்பம் வெற்றிகரமாக ரத்து செய்யப்பட்டது"
+  },
+  "Aidforme": {
+    "title": "உதவி/புகார்",
+    "subTitle": "எனக்கான உதவி/புகார்",
+    "selectAidComplaint": "உதவி/முறைப்பாட்டைத் தேர்வுசெய்க",
+    "descriptionPlaceholder": "விளக்கம் இருப்பின்",
+    "submitButton": "சமர்ப்பக்கவும்",
+    "writeRequestText": "உதவி பட்டியலில் இல்லை?",
+    "writeRequestLink": "கோரிக்கை எழுதுக",
+    "successModalText": "உங்கள் உதவ கோரிக்கை குழுவிற்கு அனுப்பப்பட்டுள்ளது!",
+    "doneButton": "முடிந்தது",
+    "errorMessage": "னைத்து புலங்களையும் நிரப்பவும்.",
+    "networkError": "பிணையப் பிழை. தயவுசெய்து மீண்டும் முயற்சிக்கவும்."
+  },
+  "aidOptions": {
+    "financialAid": "நிதி உதவி",
+    "legalAid": "சட்ட உதவி",
+    "medicalAid": "மருத்துவ உதவி",
+    "repatriationAssistance": "திரும்பிச் செல்ல உதவி",
+    "shelterBasicNeeds": "உறைவிட மற்றும் அடிப்படை தேவைகள்",
+    "mentalHealthSupport": "மனநலம் மற்றும் உணர்ச்சி ஆதரவு",
+    "humanRightsSupport": "மனித உரிமைகள் மற்றும் வழக்கறிஞர் ஆதரவு",
+    "passportDocumentAid": "பாஸ்போர்ட் மற்றும் ஆவண உதவி",
+    "languageCommunicationSupport": "மொழி மற்றும் தொடர்பு உதவி",
+    "familyAssistance": "குடும்ப உதவி",
+    "employmentRightsAdvocacy": "வேலை உரிமைகளுக்கா�� வழக்க���ி�����ர் ஆதரவு",
+    "culturalOrientationSupport": "சங்கடமற்ற கலாச்சார ஒருங்கிணைப்பு",
+    "workplaceSafetyTraining": "வேலைப்பதிவின் பாதுகாப்பு பயிற்சி",
+    "legalLaborDisputes": "தொழில் சம்பந்தமான பிரச்சனைகளுக்கு சட்ட உதவி",
+    "financialLiteracyTraining": "நிதி மேலாண்மை பயிற்சி",
+    "remittanceServices": "பணம் அனுப்ப உதவி",
+    "healthInsuranceGuidance": "ஆரோக்கிய காப்பீட்டுக்கு வழிகாட்டல்",
+    "emergencyAssistanceFund": "அவசர உதவி நிதி"
+  },
+  "complaintOptions": {
+    "wageTheft": "ஊதிய திருட்டு",
+    "unfairDismissal": "நியாயமற்ற பணிநீக்கம்",
+    "unsafeWorkingConditions": "பாதுகாப்பற்ற வேலைநிலை",
+    "lackOfHealthBenefits": "ஆரோக்கிய நன்மைகள் இல்லாமை",
+    "harassmentDiscrimination": "துன்புறுத்தல் அல்லது பாகுபாடு",
+    "excessiveWorkingHours": "அதிக வேலை நேரம்",
+    "poorLivingConditions": "மிகக் குறைவான வாழ்வாதாரநிலை",
+    "withheldPassports": "பாஸ்போர்ட்கள் பிடித்து வைத்தல்",
+    "noLegalSupport": "சட்ட ஆதரவு இல்லாமை",
+    "failureToProvideSafetyGear": "பாதுகாப்பு சாதனங்கள் வழங்கவில்லை",
+    "basicUtilitiesDisconnection": "அடிப்படை வசதிகள் துண்டிப்பு",
+    "lackOfJobSecurity": "வேலை பாதுகாப்பு இல்லாமை"
+  },
+  "aidFormeWriteReq": {
+    "title": "உதவி/புகார்",
+    "aidComplaintForMe": "எனக்கு உதவி/புகார்",
+    "enterYourRequest": "உங்கள் ஆதரவு/புகார் உள்ளிடவும்?",
+    "subjectPlaceholder": "தலைப்பு",
+    "descriptionPlaceholder": "உங்கள் தேவையை விவரிக்கவும்",
+    "submitButton": "சமர்ப்பிக்கவும்",
+    "modalMessage": "உங்கள் ஆதரவு கோரிக்கை குழுவிற்கு அனுப்பப்பட்டுள்ளது!",
+    "doneButton": "சரி"
+  },
+  "aidForNonMember": {
+    "title": "மார்க்கம் உறுப்பினரின் விவரங்கள்",
+    "fullNamePlaceholder": "முழு பெயர்",
+    "emailPlaceholder": "மின்னஞ்சல்",
+    "mobileNumberPlaceholder": "மொபைல் எண்ணை",
+    "emergencyContactPersonNamePlaceholder": "அவசர தொடர்பு நபரின் பெயர்",
+    "emergencyContactNumberPlaceholder": "அவசர தொடர்பு எண்ணை",
+    "nextButton": "அடுத்தது →",
+    "alreadyAddedDetails": "முன்உறுப்பினரின் விவரங்கள் சேர்க்கப்பட்டதா? ",
+    "nextPage": "அடுத்த பக்கம்"
+  },
+  "aidForSomeoneNonMember": {
+    "pageTitle": "உறுப்பினர் அல்லாதவருக்கான மனுக்குறை",
+    "grievanceFor": "யாருக்கான மனுக்குறை?",
+    "selectAidFor": "உதவி தேவைப்படுபவரைத் தேர்ந்தெடுக்கவும்",
+    "searchPlaceholder": "உதவி தேவைப்படுபவரை தேடுக",
+    "memberQuestion": "தமிழ் சமூக உறுப்பினருக்கு உதவி தேவையா?",
+    "goBack": "திரும்புச் செல்",
+    "done": "முடிந்தது",
+    "selectAidType": "உதவி வகையைத் தேர்ந்தெடுக்கவும்",
+    "aidTypes": {
+      "select": "உதவி வகையைத் தேர்ந்தெடுக்கவும்",
+      "financial": "நிதி உதவி",
+      "medical": "மருத்துவ உதவி",
+      "legal": "சட்ட உதவி",
+      "education": "கல்வி உதவி",
+      "housing": "வீட்டு வசதி உதவி",
+      "food": "உணவு உதவி",
+      "other": "மற்றவை"
+    },
+    "customAidType": "உதவி வகையை குறிப்பிடவும்",
+    "subject": "தலைப்பு",
+    "attachments": "இணைப்புகள்:",
+    "submitRequest": "கோரிக்கையை சமர்ப்பிக்கவும்",
+    "requestSubmitted": "கோரிக்கை சமர்ப்பிக்கப்பட்டது",
+    "alerts": {
+      "fillAllFields": "அனைத்து புலங்களையும் நிரப்பவும்.",
+      "submitError": "கோரிக்கையை சமர்ப்பிக்க முடியவில்லை.",
+      "networkError": "இணைய பிழை. பின்னர் மீண்டும் முயற்சிக்கவும்."
+    }
+  },
+  "routeTitles": {
+    "aid": "மனுக்குறை",
+    "newsMagazine": "செய்தி இதழ்",
+    "chatSupport": "அரட்டை ஆதரவு",
+    "editProfile": "சுயவிவரத்தை திருத்து",
+    "login": "உள்நுழைய",
+    "logout": "வெளியேறு"
+  },
+  "aidForSomeone1": {
+    "aidComplaint": "உதவி/புகார்",
+    "aidForSomeone": "யாருக்காக உதவி/புகார்",
+    "aidFor": "உதவி/புகார் எதற்காக",
+    "selectWhoNeedsAid": "யாருக்கு உதவி தேவை என்பதனை தேர்வு செய்க",
+    "selectAidComplaint": "உதவி/புகார் தேர்வு செய்க",
+    "descriptionIfAny": "எந்தவொரு விளக்கம்",
+    "submit": "சமர்ப்பிக்கவும்",
+    "noAidListed": "பட்டியலில் உள்ள உதவி இல்லை என்றால்?",
+    "writeRequest": "ஒரு கோரிக்கையை எழுதுங்கள்",
+    "searchAidFor": "உதவி தேடுங்கள்",
+    "notTamilMember": "தமிழ் சமூக உறுப்பினர் இல்லை என்றால்?",
+    "enterDetails": "விவரங்களை உள்ளிடவும்",
+    "done": "முடிந்தது",
+    "aidRequestSent": "உங்கள் உதவியின் கோரிக்கையை அணிக்கு அனுப்பிவைக்கப்பட்டது!",
+    "pleaseFillAllFields": "அனைத்து புலங்களையும் நிரப்பவும்.",
+    "networkError": "நெட்வொர்க் பிழை. பிறகு முயற்சிக்கவும்."
+  },
+  "aidForSomeoneWriteReq": {
+    "aidComplaint": "உதவி/புகார்",
+    "aidForSomeone": "யாருக்காக உதவி/புகார்",
+    "aidFor": "உதவி/புகார் எதற்காக",
+    "selectWhoNeedsAid": "யாருக்கு உதவி தேவை என்பதனை தேர்வு செய்க",
+    "enterAidComplaint": "உதவி/புகார் உள்ளிடவும்",
+    "subject": "தலைப்பு",
+    "descriptionIfAny": "எந்தவொரு விளக்கம்",
+    "submit": "சமர்ப்பிக்கவும்",
+    "noAidListed": "பட்டியலில் உள்ள உதவி இல்லை என்றால்?",
+    "writeRequest": "ஒரு கோரிக்கையை எழுதுங்கள்",
+    "searchAidFor": "உதவி தேடுங்கள்",
+    "notTamilMember": "தமிழ் சமூக உறுப்பினரல்லவா?",
+    "goBack": "திரும்பு",
+    "aidRequestSent": "உங்கள் உதவியின் கோரிக்கையை அணிக்கு அனுப்பிவைக்கப்பட்டது!",
+    "pleaseFillAllFields": "அனைத்து புலங்களையும் நிரப்பவும்.",
+    "networkError": "நெட்வொர்க் பிழை. பிறகு முயற்சிக்கவும்."
+  },
+  "basicDetails": {
+    "completeProfile": "உங்கள் சுயவிவரத்தை முழுமையாக்கவும்",
+    "personalDetails": "பண்புகளின் விவரங்கள்",
+    "fullName": "முழு பெயர்",
+    "email": "மின் அஞ்சல்",
+    "mobileNumber": "கைபேசி எண்",
+    "dobPlaceholder": "பிறந்த தேதி (DD/MM/YYYY)",
+    "currentLocation": "தற்போதைய இடம்",
+    "nextButton": "அடுத்தது →",
+    "errorDateFormat": "DD/MM/YYYY வடிவத்தில் தேதியை உள்ளிடவும்.",
+    "permissionDenied": "இடத்திற்கான அனுமதி மறுக்கப்பட்டது"
+  },
+  
+    "emergencyDetails": {
+      "completeProfile": "உங்கள் சுயவிவரத்தை முடிக்கவும்",
+      "personalDetails": "தனிப்பட்ட விவரங்கள்",
+      "emergencyDetails": "அவசர தொடர்பு விவரங்கள்",
+      "malaysiaEmergencyContactName": "மலேசியா அவசர தொடர்பு பெயர்",
+      "malaysiaEmergencyPhone": "மலேசியா அவசர தொலைபேசி எண்",
+      "otherEmergencyContactName": "மற்ற அவசர தொடர்பு பெயர்",
+      "otherEmergencyPhone": "மற்ற அவசர தொலைபேசி எண்",
+      "nextButton": "அடுத்தது",
+      "errorContactName": "மலேசியா அவசர தொடர்பு பெயரை உள்ளிடவும்.",
+      "errorEmergencyPhone": "மலேசியா அவசர தொலைபேசி எண்ணை உள்ளிடவும்.",
+      "errorOtherContactName": "மற்ற அவசர தொடர்பு பெயரை உள்ளிடவும்.",
+      "errorOtherEmergencyPhone": "மற்ற அவசர தொலைபேசி எண்ணை உள்ளிடவும்."
+    ,
+    "alert": {
+      "attention": "கவனம்"
+    }
+  },
+  
+  "employerDetails": {
+    "completeYourProfile": "உங்கள் சுயவிவரத்தை முடிக்கவும்",
+    "employerDetails": "முதலாளியின் விவரங்கள்",
+    "employerFullName": "முதலாளியின் முழு பெயர்",
+    "companyName": "நிறுவனத்தின் பெயர்",
+    "mobileNumber": "மொபைல் எண்",
+    "employerIDNumber": "முதலாளியின் என் ",
+    "employerAddress": "முதலாளியின் முகவரி",
+    "selectCountry": "நாட்டைத் தேர்ந்தெடுக்கவும்",
+    "selectState": "அரசு கடவுச்சீட்டு தேர்ந்தெடுக்கவும்",
+    "selectCity": "நகரத்தை தேர்ந்தெடுக்கவும்",
+    "pinCode": "பின் குறியீடு",
+    "next": "அடுத்தது →",
+    "errorFullName": "தொழிலாளியின் முழு பெயரை உள்ளிடவும்.",
+    "errorCompanyName": "கம்பெனியின் பெயரை உள்ளிடவும்.",
+    "errorMobileNumber": "சரியான கைபேசி எண்ணை உள்ளிடவும்.",
+    "errorIDNumber": "சரியான அடையாள எண்ணை உள்ளிடவும்.",
+    "errorAddress": "தொழிலாளியின் முகவரியை உள்ளிடவும்.",
+    "errorState": "ஒரு மாநிலத்தை தேர்ந்தெடுக்கவும்.",
+    "errorCity": "ஒரு நகரத்தை தேர்ந்தெடுக்கவும்.",
+    "errorPinCode": "சரியான பின் குறியீட்டை உள்ளிடவும்.",
+    "errorContactName": "அவசர தொடர்பாளர் பெயர் தேவை.",
+    "errorEmergencyPhone": "அவசர தொலைபேசி எண் தேவை.",
+    "errorOtherContactName": "மற்ற அவசர தொடர்பாளர் பெயர் தேவை.",
+    "errorOtherEmergencyPhone": "மற்ற அவசர தொலைபேசி எண் தேவை."
+  },
+  "malaysiaDetails": {
+    "completeProfile": "உங்கள் மொத்த விவரங்களை முடிக்கவும்",
+    "personalDetails": "தனிப்பட்ட விவரங்கள்",
+    "malaysiaResidenceDetails": "மலேஷியா வசிப்பிட விவரங்கள்",
+    "malaysiaResidenceAddress": "மலேஷியா வசிப்பிட முகவரி",
+    "selectState": "மாநிலத்தை தேர்வு செய்யவும்",
+    "selectCity": "நகரத்தை தேர்வு செய்யவும்",
+    "pinCode": "அஞ்சல் குறியீடு",
+    "contactPersonName": "மலேஷியா வசிப்பிட தொடர்பு நபர் பெயர்",
+    "contactPersonPhone": "மலேஷியா வசிப்பி தொடர்பு நபர் தொலைபேசி",
+    "next": "அடுத்த →",
+    "errorAddress": "உங்கள் முகவரியை உள்ளிடவும்.",
+    "errorPinCode": "சரியான பின் குறியீட்டை உள்ளிடவும்.",
+    "errorContactPersonName": "தொடர்பு நபரின் பெயரை உள்ளிடவும்.",
+    "errorContactPersonPhone": "சரியான தொலைபேசி எண்ணை உள்ளிடவும்.",
+    "errorState": "ஒரு மாநிலத்தை தேர்ந்தெடுக்கவும்.",
+    "errorCity": "ஒரு நகரத்தை தேர்ந்தெடுக்கவும்."
+  },
+  "malaysiaWorkDetails": {
+    "completeProfile": "உங்கள் மொத்த விவரங்களை முடிக்கவும்",
+    "personalDetails": "தனிப்பட்ட விவரங்கள்",
+    "malaysiaWorkDetails": "மலேஷியா வேலை விவரங்கள்",
+    "malaysiaWorkAddress": "மலேஷியா வேலை முகவரி",
+    "selectState": "மாநிலத்தை தேர்வு செய்யவும்",
+    "selectCity": "நகரத்தை தேர்வு செய்யவும்",
+    "pinCode": "அஞ்சல் குறியீடு",
+    "contactPersonName": "மலேஷியா வேலை தொடர்பு நபர் பெயர்",
+    "contactPersonPhone": "மலேஷியா வேலை தொடர்பு நபர் தொலைபேசி",
+    "next": "அடுத்த →",
+    "errorAddress": "உங்கள் வேலை முகவரியை உள்ளிடவும்.",
+    "errorPinCode": "சரியான பின் குறியீட்டை உள்ளிடவும்.",
+    "errorContactPersonName": "தொடர்பு நபரின் பெயரை உள்ளிடவும்.",
+    "errorContactPersonPhone": "சரியான தொலைபேசி எண்ணை உள்ளிடவும்.",
+    "errorState": "ஒரு மாநிலத்தை தேர்ந்தெடுக்கவும்.",
+    "errorCity": "ஒரு நகரத்தை தேர்ந்தெடுக்கவும்."
+  },
+  "nativeDetails": {
+    "completeProfile": "உங்கள் மொத்த விவரங்களை முடிக்கவும்",
+    "personalDetails": "தனிப்பட்ட விவரங்கள்",
+    "nativeDetails": "மூல விவரங்கள்",
+    "nativeResidenceAddress": "மூல வசிப்பிட முகவரி",
+    "selectCountry": "நாட்டை தேர்வு செய்யவும்",
+    "selectState": "மாநிலத்தை தேர்வு செய்யவும்",
+    "selectCity": "நகரத்தை தேர்வு செய்யவும்",
+    "pinCode": "அஞ்சல் குறியீடு",
+    "nativeContactPersonName": "மூல வசிப்பிட தொடர்பு நபர் பெயர்",
+    "nativeContactPersonPhone": "மூல வசிப்பிட தொடர்பு நபர் தொலைபேசி",
+    "next": "அடுத்த →",
+    "errorAddress": "உங்கள் முகவரியை உள்ளிடவும்.",
+    "errorPinCode": "சரியான பின் குறியீட்டை உள்ளிடவும்.",
+    "errorContactPersonName": "தொடர்பு நபரின் பெயரை உள்ளிடவும்.",
+    "errorContactPersonPhone": "சரியான தொலைபேசி எண்ணை உள்ளிடவும்.",
+    "errorCountry": "ஒரு நாட்டை தேர்ந்தெடுக்கவும்.",
+    "errorState": "ஒரு மாநிலத்தை தேர்ந்தெடுக்கவும்.",
+    "errorCity": "ஒரு நகரத்தை தேர்ந்தெடுக்கவும்."
+  },
+  
+    "passportDetails": {
+      "completeProfile": "உங்கள் சுயவிவரத்தை முடிக்கவும்",
+      "passportDetails": "குடியுரிமை விபரங்கள்",
+      "passportNumber": "கடவுச்சீட்டு எண்",
+      "surname": "குடும்பப்பெயர்",
+      "givenNames": "பெயர்கள்",
+      "nationality": "தேசியம்",
+      "dateOfIssue": "வெளியீட்டுத் தேதி",
+      "dateOfExpiry": "முடிவுத் தேதி",
+      "placeOfIssue": "வெளியீட்டு இடம்",
+      "next": "அடுத்தது",
+      "registering": "பதிவு செய்யப்படுகிறது...",
+      "errorPassportNumber": "தயவுசெய்து உங்கள் கடவுச்சீட்டு எண்ணை உள்ளிடவும்.",
+      "errorSurname": "தயவுசெய்து உங்கள் குடும்பப்பெயரை உள்ளிடவும்.",
+      "errorGivenNames": "தயவுசெய்து உங்கள் பெயர்களை உள்ளிடவும்.",
+      "errorNationality": "தயவுசெய்து உங்கள் தேசியத்தை உள்ளிடவும்.",
+      "errorDateOfIssue": "தயவுசெய்து வெளியீட்டுத் தேதியை உள்ளிடவும்.",
+      "errorDateOfExpiry": "தயவுசெய்து முடிவுத் தேதியை உள்ளிடவும்.",
+      "errorPlaceOfIssue": "தயவுசெய்து வெளியீட்டு இடத்தை உள்ளிடவும்.",
+      "errorLogin": "உங்கள் அமர்வு காலாவதியாகிவிட்டது. மீண்டும் உள்நுழைக.",
+      "alert": {
+        "attention": "கவனம்"
+      }
+    },
+   
+  
+  
+  
+  "registered": {
+    "congratulations": "அபிநந்தனம்!",
+    "registrationSuccess": "உங்கள் தகவல்கள் தமிழ் சமூகத்துடன் வெற்றிகரமாக பதிவு செய்யப்பட்டுள்ளது",
+    "done": "முடிந்தது"
+  },
+  "payment1": {
+    "title": "செய்தித்தாள்கள் & மாத இதழ்கள்",
+    "pdfVersions": "தமிழ் செய்தித்தாள்கள் மற்றும் மாத இதழ்களின் PDF பதிப்புகள்",
+    "costLabel": "{cost}.00 MYR",
+    "paypal": "பேபால்",
+    "paypalDescription": "உங்கள் ஆர்டரை பாதுகாப்பாக முடிக்க பேபால் ��ணையதளத்திற்கு மாற்றப்படுவீர்கள்",
+    "ipay88": "IPay88",
+    "ipay88Description": "உங்கள் ஆர்டரை பாதுகாப்பாக முடிக்க IPay88 இணையதளத்திற்கு மாற்றப்படுவர்கள்.",
+    "uploadReceipt": "ரசீதை பதிவேற்றம்",
+    "uploadDescription": "உங்கள் கட்டணத்தை உறுதிப்படுத்த ரசீதை பதிவேற்றவும்.",
+    "payButton": "கட்டணம் செலுத்தவும்",
+    "uploadButton": "பதிவேற்றவும்",
+    "receiptUploaded": "ரசீது பதிவேற்றப்பட்டது"
+  },
+  "newsMagazine": {
+    "title": "தமிழ் செய்தித்தாள்கள் & இதழ்களின் PDF பதிப்புகள்",
+    "subtitle": "ஒரே சந்தாவில் அனைத்து தமிழ் செய்தித்தாள்கள் மற்றும் இதழ்களின் அணுகவும்",
+    "monthly": "மாதாந்திர சந்தா",
+    "monthlyDesc": "ஒரு மாத காலத்திற்கு அனைத்து உள்ளடக்கங்களையும் அணுகவும்",
+    "quarterly": "காலாண்டு சந்தா",
+    "quarterlyDesc": "3 மாத அணுகலுடன் 10% சேமிக்கவும்",
+    "halfYearly": "அரையாண்டு சந்தா",
+    "halfYearlyDesc": "6 மாத அணுகலுடன் 15% சேமிக்கவும்",
+    "annually": "வருடாந்திர ச்தா",
+    "annuallyDesc": "12 மாத அணுகலுடன் 20% சேமிக்கவும்",
+    "currency": "MYR",
+    "selectPlan": "திட்டத்தை தேர்ந்தெடுக்கவும்"
+  },
+  "chatSupport": {
+    "title": "அரட்டை ஆதரவு",
+    "subtitle": "எங்கள் ஆதரவு குழுவிடமிருந்து உடனடி உதவி பெறுங்கள்",
+    "startChat": "அரட்டையைத் தொடங்கு",
+    "supportInfo": {
+      "title": "ஆதரவு தகவல்",
+      "availability": {
+        "title": "கிடைக்கும் நேரம்",
+        "description": "எங்கள் ஆதரவு குழு உங்கள் கேள்விகள் அல்லது சந்தேகங்களுக்கு 24/7 உதவ கிடைக்கிறது."
+      },
+      "responseTime": {
+        "title": "பதில் நேரம்",
+        "description": "அதிக நேர நேரங்களில் அனைத்து விசாரணைகளுக்கும் 5 நிமிடங்களுக்குள் பதிலளிக்க நாங்கள் முயற்சிககின்றோம்."
+      }
+    },
+    "modal": {
+      "redirecting": "அரட்டை ஆதரவுக்கு வழிநடத்துகிறது...",
+      "done": "முடிந்தது"
+    }
+  },
+  "editProfile": {
+    "edit_profile": "செய்திகள் மற்றும் திருத்தங்கள்",
+    "personal_details": " விவரங்கள்",
+    "full_name": "முழு பெயர்",
+    "email": "மின் அஞ்சல்",
+    "mobile_number": "மொபைல் எண்",
+    "date_of_birth": "பிறந்த தேதி",
+    "current_location": "தற்போதைய இடம்",
+    "native_details": "தாயகம் விவரங்கள்",
+    "native_address": "தாயக முகவரி",
+    "city": "நகரம்",
+    "state": "ாநிலம்",
+    "pin_code": "பின் குறியீடு",
+    "contact_person_name": "தொடர்பு நபரின் பெயர்",
+    "contact_person_phone": "தொடர்பு நபரின் தொலைபேசி",
+    "malaysia_residence_details": "மலேசியா வசிக்கும் விவரங்கள்",
+    "residence_address": "வசிக்கும் முகவரி",
+    "malaysia_contact_person_name": "தொடர்பு நபரின் பெயர்",
+    "malaysia_contact_person_phone": "தொடர்பு நபரின் தொலைபேசி",
+    "emergency_contact_details": "அதிரடிக் தொடர்பு விவரங்கள்",
+    "emergency_contact_person": "அதிரடிக் தொடர்பு நபர்",
+    "emergency_phone": "அதிரடித் தொலைபேசி",
+    "other_contact_person": "மற்ற தொடர்பு நபர்",
+    "other_phone": "மற்ற தொலைபேசி",
+    "employer_details": "ஊழியர் விவரங்கள்",
+    "employer_full_name": "ஊழியர் முழு பெயர்",
+    "company_name": "நிறுவனத்தின் பெயர்",
+    "employer_address": "ஊழியரின் முகவரி",
+    "passport_details": "பாஸ்போர்ட் விவரங்கள்",
+    "passport_number": "பாஸ்போர்ட் எண்",
+    "surname": "குடும்ப பெயர்",
+    "success": "வெற்றி",
+    "failed_to_update_profile": "சுயவிவரத்தை புதுப்பிக்க முடியவில்லை",
+    "an_error_occurred": "சுயவிவரத்தை சேமிக்க ஏற்பட்ட ஒரு பிழை",
+    "permission_required": "அனுமதி தேவை",
+    "permission_to_access_media": "மீடியாவை அணுக அனுமதி தேவை!"
+  },
+  "ForgetPassword": {
+    "welcome_to": "வரவேற்கிறோம்",
+    "tamil_community_portal": "தமிழ் சமூகப் போர்டல்",
+    "place_for_tamils": "இந்தியாவிற்கு வெளியே உள்ள தமிழர்களுக்கு இடம்",
+    "mobile_number": "மொபைல் எண்",
+    "password": "கடவுச்சொல்",
+    "forgot_password": "கடவுச்சொல் மறந்துவிட்டீர்களா?",
+    "sign_in": "உள்நுழைய",
+    "dont_have_account": "கணக்கு இல்லை?",
+    "create_account": "கணக்கு உருவாக்கு"
+  },
+  "login": {
+    "welcome_to": "வரவேற்கிறோம்",
+    "tamil_community_portal": "தமிழ் சமூகப் போர்டல்",
+    "place_for_tamils": "இந்தியாவிற்கு வெளியே உள்ள தமிழர்களுக்கு இடம்",
+    "mobile_number": "மொபைல் எண்",
+    "password": "கடவுச்சொல்",
+    "forgot_password": "கடவுச்சொல் மறந்துவிட்டீர்களா?",
+    "sign_in": "உள்நுழைய",
+    "signing_in": "உள்நுழைந்துகொண்டிருக்கிறேன்...",
+    "dont_have_account": "கணக்கு இல்லை?",
+    "create_account": "கணக்கு உருவாக்கு",
+    "incomplete_details": "முழுமையான விவரங்கள் இல்லை",
+    "please_fill_basic_details": "தொடர்வதற்காக உங்கள் அடிப்பையான விவரங்களை நிரப்பவு���்.",
+    "alerts": {
+      "attention": "கவனம்",
+      "fillBothFields": "கைபேசி எண் மற்றும் கடவுச்சொல் இரண்டையும் நிரப்பவும்",
+      "loginSuccess": "வெற்றிகரமாக உள்நுழைந்தீர்கள்!",
+      "success": "வெற்றி",
+      "networkError": "இணைய பிழை. பின்னர் மீண்டும் முயற்சிக்கவும்.",
+      "invalidCredentials": "தவறான கைபேசி எண் அல்லது கடவுச்சொல்",
+      "incompleteDetails": "முழுமையற்ற விவரங்கள்",
+      "fillBasicDetails": "தொடர அடிப்படை விவரங்களை நிரப்பவும்",
+       "fillphone":"தயவுசெய்து உங்கள் தொலைபேசி எண்ணை உள்ளிடுங்கள்",
+        "fillpassword":"தயவுசெய்து உங்கள் கடவுச்சொல்லை உள்ளிடுங்கள்"
+      
+    }
+  },
+  "apiMessages": {
+    "confirmAccount": "உங்கள் மின்னஞ்சலுக்கு அனுப்பப்பட்ட இணைப்பிலிருந்து உங்கள் கணக்கை உறுதிப்படுத்தவும்",
+    "invalidCredentials": "தவறான சான்றுகள்"
+  },
+  "alerts": {
+    "error": "பிழை",
+    "failedToAttachFile": "கோப்பை இணைக்க முடியவில்லை",
+    "fillAllFields": "அனைத்து புலங்களையும் நிரப்பவும்.",
+    "uploadError": "பதிவேற்ற பிழை",
+    "failedToUploadRecording": "பதிவை பதிவேற்ற முடியவில்லை",
+    "failedToSubmitRequest": "கோரிக்கையை சமர்ப்பிக்க முடியவில்லை",
+    "networkError": "இணைய பிழை. பின்னர் மீண்டும் முயற்சிக்கவும்.",
+    "information": "தகவல்",
+    "recordingSubjectInfo": "பதிவு செய்யும் போது தயவுசெய்து ஒரு தலைப்பை தட்டச்சு செய்யவும்.",
+    "recordingPermissionError": "ஒலிப்பதிவு அனுமதி வழங்கப்படவில்லை.",
+    "failedToStartRecording": "பதிவை தொடங்க முடியவில்லை",
+    "unknownError": "அறியப்படாத பிழை ஏற்பட்டது"
+  },
+  "aidForNonMembersteps": {
+    "quickGuide": {
+      "title": "விரைவு வழிகாட்டி",
+      "steps": {
+        "step1": "1. உறுப்பினர் அல்லாதவரின் விவரங்களை நிரப்பவும்",
+        "step2": "2. உதவி கோரிக்கையை தொடர சமர்ப்பிக்கவும்"
+      }
+    }
+  },
+  "mailSent": {
+    "title": "உங்கள் மின்னஞ்சலை சரிபார்க்கவும்",
+    "subtitle": "உங்கள் இன்பாக்ஸை சரிபார்க்கவும்",
+    "emailSentTo": "நாங்கள் சரிபார்ப்பு மின்னஞ்சலை அனுப்பியுள்ளோம்",
+    "nextSteps": {
+      "title": "அடுத்த படிகள்:",
+      "step1": "1. எங்கள் குழுவிடமிருந்து வந்த மின்னஞ்சலைத் திறக்கவும்",
+      "step2": "2. மின்னஞ்சலில் உள்ள சரிபார்ப்பு இணைப்பைக் கிளிக் செய்யவும்",
+      "step3": "3. சரிபார்க்கப்பட்டவுடன், உள்நுழைய செல்லவும்"
+    },
+    "proceedToLogin": "உள்நுழைவுக்கு செல்லவும்",
+    "resendEmail": {
+      "question": "மின்னஞ்சல் பெறவில்லையா?",
+      "resend": "மீண்டும் அனுப்பு",
+      "resending": "மீண்டும் அனுப்புகிறது..."
+    },
+    "toasts": {
+      "resendSuccess": "சரிபார்ப்பு மின்னஞ்சல் வெற்றிகரமாக மீண்டும் அனுப்பப்பட்டது.",
+      "resendFailed": "சரிபார்ப்பு மின்னஞ்சலை மீண்டும் அனுப்ப முடியவில்லை.",
+      "error": "மின்னஞ்சலை மீண்டும் அனுப்பும்போது பிழை ஏற்பட்டது."
+    }
+  },
+  "mobileRegistration": {
+    "mobileRegistered": "உங்கள் மொபைல் எண்ணிக்கை பதிவு செய்யப்பட்டுள்ளது.",
+    "completeProfile": "உங்கள் செயலியை முழுமைப்படுத்தவும் உறுப்பினராக ஆகவும்.",
+    "done": "சரி"
+  },
+  "newPassword": {
+    "setNewPassword": "புதிய கடவுச்சொல்லை அமைக்கவும்",
+    "enterNewPassword": "தயவுசெய்து உங்கள் புதிய கடவுச்சொல்லையும் சரிபார்க்கும் குறியீட்டையும் உள்ளிடவும்",
+    "verificationCode": "சரிபார்ப்பு குறியீடு",
+    "newPassword": "புதிய கடவுச்சொல்",
+    "confirmPassword": "கடவுச்சொல்லை உறுதிப்படுத்தவும்",
+    "resetPassword": "கடவுச்சொல்லை மீட்டமைக்கவும்",
+    "resetting": "மீட்டமைக்கிறது...",
+    "errorPasswordsDoNotMatch": "கடவுச்சொற்கள் பொருந்தவில்லை.",
+    "errorPasswordEmpty": "கடவுச்சொல் காலியாக இருக்க முடியாது.",
+    "errorVerificationCodeEmpty": "சரிபார்ப்பு குறியீடு காலியாக இருக்க முடியாது.",
+    "successResetPassword": "கடவுச்சொல் வெற்றிகரமாக மீட்டமைக்கப்பட்டது.",
+    "errorResetPassword": "கடவுச்சொல்லை மீட்டமைக்க முடியவில்லை.",
+    "errorSomethingWentWrong": "என்னதான் நடந்தாலும், தயவுசெய்து மீண்டும் முயற்சிக்கவும்.",
+    "passwordCannotBeEmpty": "கடவுச்சொல் காலியாக இருக்க முடியாது.",
+    "verificationCodeCannotBeEmpty": "சரிபார்ப்பு குறியீடு காலியாக இருக்க முடியாது."
+  },
+  "otpverification": {
+    "enterCode": "நாங்கள் உங்களுக்கு அனுப்பிய குறியீட்டை உள்ளிடவும்",
+    "invalidOtp": "செல்லப்பெயர் தவறானது",
+    "otpError": "தயவுசெய்து OTP-இன் அனைத்து 4 இலக்கங்களையும் உள்ளிடவும்.",
+    "verify": "உறுதிப்படுத்தவும்",
+    "wrongNumber": "தவறான எண்ணா?",
+    "goBack": "திரும்பு செல்லவும்"
+  },
+  "passwordReset": {
+    "passwordReset": "கடவுச்சொல் மீட்டமைப்பு",
+    "title": "உங்கள் பதிவு செய்யப்பட்ட மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+    "emailPlaceholder": "உங்கள் மின்னஞ்சலை உள்ளிடவும்",
+    "sendButton": {
+      "sending": "அனுப்புகிறது...",
+      "send": "அனுப்பு"
+    },
+    "verificationMessage": "சரிபார்ப்பு குறியீட்டிற்கு உங்கள் அஞ்சலை சரிபார்க்கவும்",
+    "error": "கவனம்",
+    "verificationCodeMessage": "உங்கள் மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+    "success": {
+      "title": "வெற்றி",
+      "message": "கடவுச்சொல் மீட்டமைப்பு மின்னஞ்சல் வெற்றிகரமாக அனுப்பப்பட்டது."
+    },
+    "errors": {
+      "generic": " மீண்டும் முயற்சிக்கவும்.",
+      "emailSend": "மீட்டமைப்பு மின்னஞ்சலை அனுப்ப முடியவில்லை."
+    }
+  },
+  "signup": {
+    "welcome": "வரவேற்கிறோம்!",
+    "portalTitle": "தமிழ் சமூக வலைத்தளம்",
+    "portalDescription": "எங்கள் சமூகத்தில் இணைந்து உறுப்பினர்களுடன் இணையுங்கள்",
+    "fullNamePlaceholder": "முழு பெயர்",
+    "emailPlaceholder": "மின்னஞ்சல் முகவரி",
+    "mobileNumberPlaceholder": "கைபேசி எண்",
+    "passwordPlaceholder": "கடவுச்சொல்",
+    "createAccount": "கணக்கை உருவாக்கு",
+    "creatingAccount": "கணக்கை உருவாக்குகிறது...",
+    "alreadyHaveAccount": "ஏற்கனவே கணக்கு உள்ளதா?",
+    "signIn": "உள்நுழைய",
+    "fullNameRequired": "முழு பெயர் தேவை",
+    "emailRequired": "மின்னஞ்சல் தேவை",
+    "invalidEmail": "சரியான மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+    "mobileNumberRequired": "கைபேசி எண் தேவை",
+    "passwordRequired": "கடவுச்சொல் தேவை",
+    "passwordTooShort": "கடவுச்சொல் குறைந்தது 6 எழுத்துகள் இருக்க வேண்டும்",
+    "pleaseFixErrors": "சமர்ப்பிப்பதற்கு முன் பிழைகளை சரிசெய்யவும்",
+    "accountCreated": "கணக்கு வெற்றிகரமாக உருவாக்கப்பட்டது!",
+    "userAlreadyExists": "இந்த மின்னஞ்ச���ுடன் ஒரு பயனர் ஏற்கனவே உள்ளார்",
+    "somethingWentWrong": "ஏதோ தவறு நடந்துவிட்டது. மீண்டும் முயற்சிக்கவும்",
+    "networkError": "இணைய பிழை. உங்கள் இணைப்பை சரிபார்த்து மீண்டும் முயற்சிக்கவும்"
+  },
+  "recording": {
+    "stopRecording": "பதிவை நிறுத்தவும்",
+    "recordVoice": "குரல் பதிவுசெய்யவும்",
+    "playRecording": "பதிவைப் playback செய்யவும்",
+    "deleteRecording": "பதிவை அழிக்கவும்",
+    "Recording": "பதிவு செய்கிறார்"
+  },
+  "aid": {
+    "communityNews": "சமூக செய்திகள்",
+    "loadingNews": "செய்திகள் ஏற்றப்படுகிறது...",
+    "noNews": "செய்திகள் எதுவும் இல்லை",
+    "addressGrievance": "மனுக்களை சமர்ப்பிக்க",
+    "requestAid": "உதவி கோரிக்கை",
+    "myself": "எனக்காக",
+    "someoneElse": "மற்றொருவருக்காக",
+    "trackRequests": "உங்கள் உதவி கோரிக்கைகள் மற்றும் புகார்களை கண்காணிக்க",
+    "writeRequest": "கோரிக்கை எழுதுக",
+    "notInList": "பட்டியலில் இல்லையா?",
+    "description": "விளக்கம் (ஏதேனும் இருந்தால்)",
+    "submit": "சமர்ப்பிக்கவும்",
+    "requestSent": "உங்கள் உதவி கோரிக்கை குழுவிற்கு அனுப்பப்படடுள்ளது!",
+    "done": "முடிந்தது",
+    "fillAllFields": "அனைத்து புலங்களையும் நிரப்பவும்.",
+    "networkError": "பிணைய பிழை. பின்னர் முயற்சிக்கவும்."
+  },
+  "trackAidDetailsSelf": {
+    "title": "விவரங்கள்",
+    "requestId": "கோரிக்கை எண்: ",
+    "requestedOn": "கோரிக்கை தேதி: ",
+    "requestStatus": "கோரிக்கை நிலை: ",
+    "aidType": "உதவி வகை: ",
+    "description": "விளக்கம்: ",
+    "audioRecording": "ஒலிப்பதிவு: ",
+    "discussions": "கலந்துரையாடல்கள்",
+    "playAudio": "ஒலியை இயக்கு",
+    "pauseAudio": "ஒலியை நிறுத்து",
+    "addComment": "கருத்தை சேர்க்க",
+    "writeComment": "கருத்தை எழுதுங்கள்...",
+    "send": "அனுப்பு",
+    "sending": "அனுப்புகிறது...",
+    "attachFile": "கோப்பை இணைக்க",
+    "recordVoice": "குரலை பதிவு செய்",
+    "stopRecording": "பதிவை நிறுத்தவும்",
+    "deleteRecording": "பதிவை நீக்கு",
+    "playRecording": "பதிவை இயக்கு",
+    "noComments": "கருத்துகள் எதுவும் இல்லை",
+    "loadingComments": "கருத்துகளை ஏற்றுகிறது...",
+    "errorLoadingComments": "கருத்துகளை ஏற்றுவதில் பிழை",
+    "commentAdded": "கருத்து வெற்றிகரமாக சேர்க்கப்பட்டது",
+    "errorAddingComment": "கருத்தை சேர்ப்பதில் பிழை",
+    "cancelRequest": "கோரிக்கையை ரத்து செய்",
+    "loading": "ஏற்றுகிறது...",
+    "error": "பிழை",
+    "success": "வெற்றி",
+    
+    "cancelRequestMessage": "கோரிக்கையை ரத்து செய்ய முடியவில்லை",
+    "cancelRequestSuccess": "கோரிக்கை வெற்றிகரமாக ரத்து செய்யப்பட்டது",
+    "networkError": "பிணைய பிழை. பின்னர் முயற்சிக்கவும்",
+    "notAvailable": "கிடைக்கவில்லை",
+    "confirmCancelTitle": "கோரிக்கையை ரத்து செய்",
+    "confirmCancelMessage": "இந்த கோரிக்கையை ரத்து செய்ய விரும்புகிறீர்களா?",
+    "yes": "ஆம்",
+    "no": "இல்லை",
+    "tamilCommunityTeam": "தமிழ் சமூக குழு",
+    "actionDisabled": "உங்கள் பதில் இருக்கும் போது இதை மீண்டும் முயற்சிக்க முடியாது.",
+    "emptyComment": "உங்கள் பதில் இருக்கும் போது இதை மீண்டும் முயற்சிக்க முடியாது.",
+   
+    "reply": {
+      "title": "உங்கள் பதில்",
+      "sendButton": "பதிலை அனுப்பு",
+      "attachments": "இணைப்புகள்:",
+      "sending": "அனுப்புகிறது...",
+      "placeholder": "உங்கள் பதிலை இங்கே தட்டச்சு செய்யவும்..."
+    }
+  },
+  "trackAidDetailsSomeone": {
+    "title": "விவரங்கள்",
+    "requestId": "கோரிக்கை எண்: ",
+    "aidFor": "உதவி பெறுபவர்: ",
+    "requestedOn": "கோரிக்கை தேதி: ",
+    "requestStatus": "கோரிக்கை நிலை: ",
+    "aidType": "உதவி வகை: ",
+    "description": "விளக்கம்: ",
+    "audioRecording": "ஒலிப்பதிவு: ",
+    "discussions": "கலந்துரையாடல்கள்",
+    "playAudio": "ஒலியை இயக்கு",
+    "pauseAudio": "ஒலியை நிறுத்து",
+    "addComment": "கருத்தை சேர்க்க",
+    "writeComment": "கருத்தை எழுதுங்கள்...",
+    "send": "அனுப்பு",
+    "sending": "அனுப்புகிறது...",
+    "attachFile": "கோப்பை இணைக்க",
+    "recordVoice": "குரலை பதிவு செய்",
+    "stopRecording": "பதிவை நிறுத்து",
+    "deleteRecording": "பதிவை நீக்கு",
+    "playRecording": "பதிவை இயக்கு",
+    "noComments": "கருத்துகள் எதுவும் இல்லை",
+    "loadingComments": "கருத்துகளை ஏற்றுகிறது...",
+    "errorLoadingComments": "கருத்துகளை ஏற்றுவதில் பிழை",
+    "commentAdded": "கருத்து வெற்றிகரமாக சேர்க்கப்பட்டது",
+    "errorAddingComment": "கருத்தை சேர்ப்பதில் பிழை",
+    "cancelRequest": "கோரிக்கையை ரத்து செய்",
+    "loading": "ஏற்றுகிறது...",
+    "error": "பிழை",
+    "success": "வெற்றி",
+    "cancelRequestMessage": "கோரிக்கையை ரத்து செய்ய முடியவில்லை",
+    "cancelRequestSuccess": "கோரிக்கை வெற்றிகரமாக ரத்து செய்யப்பட்டது",
+    "networkError": "பிணைய பிழை. பின்னர் முயற்சிக்கவும்",
+    "notAvailable": "கிடைக்கவில்லை"
+  },
+  "descriptionInput": {
+    "placeholder": "சூழ்நிலையையும் தேவையான உதவியையும் விவரிக்கவும்...",
+    "buttons": {
+      "record": "குரல் பதிவு",
+      "stopRecording": "பதிவை நிறுத்து",
+      "play": "பதிவை இயக்கு",
+      "delete": "பதிவை அழி",
+      "attach": "கோப்பை இணை"
+    },
+    "accessibility": {
+      "recordButton": "குரல் பதிவை மாற்று",
+      "playButton": "பதிவு செய்யப்பட்ட ை இயக்கு",
+      "deleteButton": "பதிவு செய்யப்பட்ட செய்தியை அழி",
+      "attachButton": "கோப்பை இணை"
+    }
+  },
+  "alert": {
+    "attention": "கவனிக்கவும்",
+    "pleaseFillBothFields": "இரு புலங்களையும் நிரப்பவும்"
+  },
+  "registration": {
+    "successTitle": "பதிவு முடிந்தது",
+    "successMessage": "உங்கள் கணக்கு வெற்றிகரமாக உருவாக்கப்பட்டுள்ளது. நீங்கள் எங்கள் சேவைகளை ஆராயத் தயாராக இருக்கிறீர்கள்.",
+    "nextStepsTitle": "அடுத்த படிகள்",
+    "nextStepsExplore": "கிடைக்கக்கூடிய சேவைகளை ஆராயவும்",
+    "nextStepsExploreDescription": "உங்களுக்கு கிடைக்கக்கூடிய சேவைகள் மற்றும் ஆதரவு விருப்பங்களை கண்டறியவும்.",
+    "getStarted": "தொடங்குங்கள்"
+  },
+  "editProfile2": {
+    "title": "சுயவிவரத்தை திருத்து",
+    "defaultName": "ஜான் டோ",
+    "defaultEmail": "john.doe@example.com",
+    "userCode": "பயனர் குறியீடு",
+    "sections": {
+      "personalDetails": "தனிப்பட்ட விவரங்கள்",
+      "nativeDetails": "சொந்த விவரங்கள்",
+      "malaysiaResidenceDetails": "மலேசிய வசிப்பிட விவரங்கள்",
+      "employerDetails": "வேலை வழங்குநர் விவரங்கள்",
+      "passportDetails": "பாஸ்போர்ட் விவரங்கள்"
+    },
+    "fields": {
+      "fullName": "முழு பெயர்",
+      "email": "மின்னஞ்சல்",
+      "mobileNumber": "கைபேசி எண்",
+      "dateOfBirth": "பிறந்த தேதி",
+      "nativeAddress": "சொந்த முகவரி",
+      "city": "நகரம்",
+      "state": "மாநிலம்",
+      "pinCode": "அஞ்சல் குறியீடு",
+      "contactPersonName": "தொடர்பு நபரின் பெயர்",
+      "contact": ""
+    }
+  }
+}
